@@ -1,0 +1,20 @@
+{
+  "name": "metodos-express",
+  "version": "1.0.0",
+  "description": "MetodosExpress",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon && server.js",
+    "dev": "nodemon ./server.js localhost 8080"
+  },
+
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
